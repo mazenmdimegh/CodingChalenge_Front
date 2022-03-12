@@ -1,18 +1,21 @@
 .background-upper-half {
-    height: 400px;
-    width: 1280px;
+    width: 101.4%;
+    height: 50vh;
     background-color: #1A1A1A;
     position: relative;
     left: -10px;
-    top: -12px;
-    
+    top: -10px;
   }
+.container{
+  margin-left: 60px;
+  margin-right: 60px;
+}
 .hatch-studio-logo-combination- {
   height: 25px;
   width: 123.15px;
   position: relative;
-    left: 60px;
-    top: 40px;
+
+    top: 5vh;
 }
 .headline {
   height: 47px;
@@ -24,23 +27,29 @@
   line-height: 47px;
   text-align: center;
   position: relative;
-  left: 60px;
-  top: 134px;
+
+  top: 16.8vh;
 }
 .converter {
-  height: 128px;
-  width: 905px;
+  height: 16vh;
+  width: 70.5vw;
   background-color: #353535;
   position: relative;
-  left: 60px;
-  top: 210px;
+  top: 26.3vh;
   border-radius: 18px;
+  
+}
+.Form{
+  display: flex;
+  padding-top: 3vh;
+  padding-left: 5vw;
+  justify-content: space-between;
 }
 .result {
   height: 78px;
   width: 237px;
   position: relative;
-  left: 110px;
+  left: 50px;
   top: 282px;
 }
 .p1-eur {
@@ -69,6 +78,82 @@
   font-size: 12px;
   line-height: 14px;
   position: relative;
-  left: 1084px;
+  float :right;
   top: 178px;
+}
+.name {
+  height: 14px;
+  width: 28px;
+  color: #C6C6C6;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 14px;
+}
+.background {
+  height: 40px;
+  width: 200px;
+  opacity: 0.08;
+  border-radius: 8px;
+  background-color: #FFF;
+  color: #FFF;
+}
+
+.default-value {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
+}
+.input {
+  height: 40px;
+  width: 200px;
+  background-color: #454545;
+  border-radius: 8px;
+  border: 0;
+
+  box-sizing: border-box;
+  color: #eee;
+  font-size: 18px;
+  outline: 0;
+}
+.button-convert {
+  height: 40px;
+  width: 117px;
+  border-radius: 9px;
+  margin-top: 39px;
+  margin-right: 30px;
+  border-block-style: none;
+  background-color: #F3FF0A;
+  box-shadow: white;
+  border-color: #ffffff00   ;
+  color: #1A1A1A;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+}
+.box select {
+  height: 40px;
+  width: 200px;
+  background-color: #454545;
+  border-radius: 8px;
+  border: 0;
+
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
+  outline: 0;
+}
+.switcher {
+  height: 12px;
+  width: 12px;
+  margin-top: 48px;
+}
+
+.Reverse{
+  height: 16px;
+  fill: #F3FF0A;
 }
