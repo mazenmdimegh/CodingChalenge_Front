@@ -1,0 +1,18 @@
+<div class="background-upper-half">
+    <img class="hatch-studio-logo-combination-" src="../assets/images/hatch_studio-logo_combination-white.png">
+    <div><h1 class="headline">Convert currencies in real-time.</h1></div>
+    <div class="converter">
+         <form [formGroup]="profileForm" (submit)="createNewTask()">
+
+            <label for="first-name">First Name: </label>
+            <input id="first-name" type="text" formControlName="firstName">
+          
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form> 
+    </div>
+    <a href="#" class="button-view-history">View conversion history ></a>
+    <div class="result">
+        <p class="p1-eur">1 EUR =</p>
+        <h1 class="h1-12392-usd">1.12392 USD</h1>
+    </div>
+</div>

@@ -1,0 +1,74 @@
+.background-upper-half {
+    height: 400px;
+    width: 1280px;
+    background-color: #1A1A1A;
+    position: relative;
+    left: -10px;
+    top: -12px;
+    
+  }
+.hatch-studio-logo-combination- {
+  height: 25px;
+  width: 123.15px;
+  position: relative;
+    left: 60px;
+    top: 40px;
+}
+.headline {
+  height: 47px;
+  width: 571px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  text-align: center;
+  position: relative;
+  left: 60px;
+  top: 134px;
+}
+.converter {
+  height: 128px;
+  width: 905px;
+  background-color: #353535;
+  position: relative;
+  left: 60px;
+  top: 210px;
+  border-radius: 18px;
+}
+.result {
+  height: 78px;
+  width: 237px;
+  position: relative;
+  left: 110px;
+  top: 282px;
+}
+.p1-eur {
+  height: 23px;
+  width: 69px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  line-height: 23px;
+}
+.h1-12392-usd {
+  height: 47px;
+  width: 237px;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+}
+.button-view-history {
+  height: 14px;
+  width: 136px;
+  opacity: 0.5;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 12px;
+  line-height: 14px;
+  position: relative;
+  left: 1084px;
+  top: 178px;
+}
