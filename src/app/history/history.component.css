@@ -1,0 +1,54 @@
+.background{
+  background-color: #1A1A1A;
+  height: 86vh;
+  width: 100.8vw;
+  left: -10vw;
+}
+.container{
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.button-go-back {
+    height: 14px;
+    width: 58px;
+    opacity: 0.5;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12vh;
+  }
+
+  .Table-style {
+    color: #C6C6C6;
+    font-size: 12px;
+    line-height: 14px;
+    height: 36px;
+    width: 89vw;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 19px;
+  }
+  .Table-style2 {
+    width: 1160px;
+    height: 7.2vh;
+    width: 90vw;
+    color: rgb(255, 255, 255);
+    background-color: #353535;
+    border-radius: 15px;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 21px;
+  }
+  .conversion-2 {
+    height: 59px;
+    width: 1160px;
+  }
+  #th{
+    padding-right:160px;
+  }

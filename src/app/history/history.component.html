@@ -1,1 +1,21 @@
-<p>history works!</p>
+<div class="background">
+    <div class="container">
+        <div class="button-go-back">
+            <a routerLink="/currency" class="button-go-back">
+                < Go Back </a>
+        </div>
+        <div>
+            <div class="Table-style titre">
+                <th id="th"scope="col">Date</th>
+                <th scope="col">From</th>
+                <th scope="col">To</th>
+            </div>
+            <div *ngFor="let E of conversions" class="Table-style2">
+                <div >{{E.date}}</div>
+                <div>{{E.from}}</div>
+                <div>{{E.to}}</div>
+            </div>
+        </div>
+
+    </div>
+</div>

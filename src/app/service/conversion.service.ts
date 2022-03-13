@@ -6,8 +6,8 @@ import { HttpClient } from '@angular/common/http';
 export class ConversionService {
   public host:string="http://localhost:3000/api/conversions"
   constructor(private httpClient:HttpClient) { }
-  public getConversion(page:number,size:number){
-    return this.httpClient.get(this.host+"/employes?page="+page+"&size="+size);
+  public getConversion(){
+    return this.httpClient.get(this.host);
 
   }
   public AddConversion(body:any){
