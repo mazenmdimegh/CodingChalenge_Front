@@ -47,7 +47,7 @@
 }
 .result {
   height: 78px;
-  width: 237px;
+  
   position: relative;
   left: 50px;
   top: 282px;
@@ -61,7 +61,6 @@
 }
 .h1-12392-usd {
   height: 47px;
-  width: 237px;
   color: #FFF;
   font-family: Roboto;
   font-size: 40px;
