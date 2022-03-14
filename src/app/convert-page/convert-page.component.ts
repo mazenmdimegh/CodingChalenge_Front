@@ -12,14 +12,14 @@ export class ConvertPageComponent implements OnInit {
   public amount:String="";
   public result:String="";
   public x:String="";
-  public show = true;
+  public Toast = false;
   currencies=[
     "EUR",
     "USD"	,
     "British Pound",
-    "Indian Rupee	",
+    "Indian Rupee",
     "Australian Dollar",
-    "Canadian Dollar	",
+    "Canadian Dollar",
     "Singapore Dollar",
     "Swiss Franc",
     "Malaysian Ringgit",
@@ -65,7 +65,7 @@ export class ConvertPageComponent implements OnInit {
     {
       if (this.profileForm.value["amount"]!=""){
           this.amount=this.profileForm.value["amount"]+" "+this.profileForm.value["from"]
-          // this.toastr.showError('Name required', 'Erreur'); 
+          this.Toast = false;
           for (const x of this.c.entries()) {
             if (x[0]==this.profileForm.value["from"]){
                 this.result=(Number(this.profileForm.value["amount"])/x[1]*Number(this.c.get(this.profileForm.value["to"]))).toString()+" "+this.profileForm.value["to"];
@@ -84,7 +84,10 @@ export class ConvertPageComponent implements OnInit {
                 })
           }                                 
           }
-    } 
+    } else{
+      this.toastr.showError('Name required', 'Erreur'); 
+      this.Toast = true;
+    }
      
     }
     Reverse()
